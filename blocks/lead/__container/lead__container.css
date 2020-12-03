@@ -1,0 +1,16 @@
+.lead__container {
+  width: calc(100% - 96px);
+  margin: auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__container {
+    width: calc(100% - 296px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__container {
+    width: 100vw;
+  }
+}
