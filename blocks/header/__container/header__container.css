@@ -1,0 +1,20 @@
+.header__container {
+  width: calc(100% - 96px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__container {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__container {
+    width: calc(100% - 32px);
+  }
+}
+
