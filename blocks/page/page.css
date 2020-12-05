@@ -1,5 +1,6 @@
 .page {
-  /* max-width: 1440px; */
+  max-width: 1440px;
+  margin: auto;
   background-color: #2a2c2f;
   font-family: 'Inter', 'Arial', sans-serif;
   -moz-osx-font-smoothing: grayscale;
