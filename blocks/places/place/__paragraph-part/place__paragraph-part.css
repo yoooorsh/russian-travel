@@ -1,0 +1,20 @@
+.place__paragraph-part {
+  margin: 0 0 27px;
+}
+
+.place__paragraph-part:last-of-type {
+  margin-bottom: 0;
+}
+
+
+@media screen and (min-width: 1280px) {
+  .place__paragraph-part {
+    margin-bottom: 26px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__paragraph-part {
+    margin-bottom: 25px;
+  }
+}

@@ -1,5 +1,33 @@
 .place {
   display: grid;
-  /* grid-template-columns: repeat(2, min-content); */
-  gap: 28px 48px;
+  grid-template-columns: 420px minmax(288px, 484px);
+  gap: 48px 32px;
+  margin-top: 80px;
+}
+
+.place:first-of-type {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    gap: 48px 40px;
+    grid-template-columns: 460px minmax(288px, 484px);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    margin-top: 72px;
+    gap: 48px 28px;
+    grid-template-columns: 340px minmax(288px, 484px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    margin-top: 50px;
+    gap: 32px;
+    grid-template-columns: 1fr;
+  }
 }
