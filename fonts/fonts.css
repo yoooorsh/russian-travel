@@ -3,10 +3,8 @@
   font-style:  normal;
   font-weight: 900;
   font-display: swap;
-  src: url('./Inter_Hinted_for_Windows/Web/Inter-Black.woff2') format('woff2'),
-       url('./Inter_Hinted_for_Windows/Web/Inter-Black.woff') format('woff'),
-       url('./Inter_Desktop/Inter-Black.otf') format('otf'),
-       url('./Inter_Hinted_for_Windows/Desktop/Inter-Black.ttf') format('ttf');
+  src: url('./Inter/Inter-Black.woff2') format('woff2'),
+       url('./Inter/Inter-Black.woff') format('woff'),
 }
 
 @font-face {
@@ -14,10 +12,8 @@
   font-style:  normal;
   font-weight: normal;
   font-display: swap;
-  src: url('./Inter_Hinted_for_Windows/Web/Inter-Regular.woff2') format('woff2'),
-       url('./Inter_Hinted_for_Windows/Web/Inter-Regular.woff') format('woff'),
-       url('./Inter_Desktop/Inter-Regular.otf') format('otf'),
-       url('./Inter_Hinted_for_Windows/Desktop/Inter-Regular.ttf') format('ttf');
+  src: url('./Inter/Web/Inter-Regular.woff2') format('woff2'),
+       url('./Inter/Web/Inter-Regular.woff') format('woff'),
 }
 
 @font-face {
@@ -25,8 +21,6 @@
   font-style:  normal;
   font-weight: bold;
   font-display: swap;
-  src: url('./Inter_Hinted_for_Windows/Web/Inter-Bold.woff2') format('woff2'),
-       url('./Inter_Hinted_for_Windows/Web/Inter-Bold.woff') format('woff'),
-       url('./Inter_Desktop/Inter-Bold.otf') format('otf'),
-       url('./Inter_Hinted_for_Windows/Desktop/Inter-Bold.ttf') format('ttf');
+  src: url('./Inter/Web/Inter-Bold.woff2') format('woff2'),
+       url('./Inter/Web/Inter-Bold.woff') format('woff'),
 }
