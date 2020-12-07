@@ -4,7 +4,7 @@
   font-weight: 900;
   font-display: swap;
   src: url('./Inter/Inter-Black.woff2') format('woff2'),
-       url('./Inter/Inter-Black.woff') format('woff'),
+       url('./Inter/Inter-Black.woff') format('woff');
 }
 
 @font-face {
